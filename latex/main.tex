@@ -1,0 +1,48 @@
+\documentclass[10pt,a4paper,titlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage[font=small]{caption}
+\usepackage{subcaption}
+\usepackage{todonotes}
+\usepackage[toc,page]{appendix}
+\usepackage{hyperref} %stefan inserted this 
+\usepackage{cite} %stefan inserted this 
+\usepackage{listings} % stefan inserted this
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Michael K. Schmidt, micsc12@student.sdu.dk \\ Stefan J. M-Møller, stmae09@student.sdu.dk \\ \\ Course: RMAI1 - Artifial Intelligence \\  T: John Hallam, John@mmmi.sdu.dk \\ TA: Danish Shaikh, danish@mmmi.sdu.dk}
+\title{AI1: Sokoban Project Group 22}
+\begin{document}
+\maketitle
+\setcounter{secnumdepth}{2}
+\section{Preface}
+This report describes the work done for the Sokoban Project during the fall semester 2016 in the RMAI1 course. 
+The report has been split up into two parts, as per suggestion of our teacher, John Hallam. The first part being Robot which goes into detail with the evolution, behaviours and various tests. The second part being the solver/planner which goes into detail with the implementation, choosing a heuristic and a walk-through of the algorithm. 
+
+\setcounter{tocdepth}{2}
+\tableofcontents
+\include{Question3}
+\include{Question4}
+\input{Discussion}
+
+~\\[80pt]
+\addcontentsline{toc}{section}{References}
+\begin{thebibliography}{9}
+\bibitem{Darwin}
+\bibitem{algorithms}
+  Mark A. Weiss
+  \emph{Data Structures and Algorithm Analysis in C++},
+  Pearson
+  International Edition
+  4rd edition,
+  2014.
+\end{thebibliography}
+
+
+
+\end{document}
+
